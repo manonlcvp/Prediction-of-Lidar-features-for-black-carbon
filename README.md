@@ -55,3 +55,15 @@ Ces analyses permettent de tester l'importance des différentes variables dans l
 3. Explorez les notebooks :
    - Commencez par [X_Y.ipynb](Notebooks-ML/X_Y.ipynb), [X_L.ipynb](Notebooks-ML/X_L.ipynb), ou [L_X.ipynb](Notebooks-ML/L_X.ipynb) pour comprendre les prédictions spécifiques.
    - Consultez [resultats.ipynb](Notebooks-ML/resultats.ipynb) pour visualiser et analyser les résultats.
+
+---
+
+## Auteurs
+
+- **Misselis Emiri** - Etudiante INSA Toulouse
+- **Catalogna Lise** - Etudiante INSA Toulouse
+- **Lacave-Pistaa Manon** - Etudiante INSA Toulouse
+
+---
+
+Ce projet a été réalisé grâce à la contribution de tous les membres mentionnés ci-dessus et de **Ceolato Romain**, encadrant du projet travaillant à l'ONERA. 
