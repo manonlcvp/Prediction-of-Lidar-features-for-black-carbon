@@ -9,8 +9,10 @@ Le projet comprend plusieurs notebooks dédiés à des tâches spécifiques :
 
 - [X_Y.ipynb](Notebooks-ML/X_Y.ipynb) : Prédiction des paramètres optiques à partir des paramètres physiques.
 - [X_L.ipynb](Notebooks-ML/X_L.ipynb) : Prédiction des paramètres lidar à partir des paramètres physiques.
-- [L_X.ipynb](Notebooks-ML/L_X.ipynb) : Prédiction des paramètres physiques à partir des paramètres lidar. Ce notebook inclut également une étude détaillée de la prédiction des paramètres physiques en utilisant une ou deux variables lidar, pour déterminer les variables les plus influentes.
+- [L_X.ipynb](Notebooks-ML/L_X.ipynb) : Prédiction des paramètres physiques à partir des paramètres lidar.
+- [L_X_1_2_var.ipynb](Notebooks-ML/L_X_1_2_var.ipynb) : Prédiction des paramètres physiques en utilisant une ou deux variables lidar, pour déterminer les variables les plus influentes.
 - [resultats.ipynb](Notebooks-ML/resultats.ipynb) : Visualisation des résultats avec des graphes.
+- [Fonction_prédiction.ipynb](Notebooks-ML/Fonction_prédiction.ipynb) : Fonction qui prédit les paramètres physiques en prenant en entrée les paramètres Lidar et deux paramètres physiques (fraction of coating et fractal dimension).
 
 ### Préparation des données
 Les données ont été nettoyées et analysées pour assurer leur qualité et leur exploitabilité avant d'être utilisées dans les modèles. Ce nettoyage a été réalisé dans [création_database.ipynb](data/création_database.ipynb)
@@ -34,6 +36,7 @@ Pour chaque modèle, les performances sont évaluées à l'aide des métriques s
 ## Résultats et Visualisations
 Les résultats sont présentés sous forme de :
 - **Graphes des valeurs réelles vs prédictions** : pour visualiser la précision des modèles.
+- **Graphes de résidus** : pour évaluer les erreurs de prédiction.
 - **Analyse des erreurs de prédiction** : R², MSE, et MAPE sont calculés pour comparer les performances des modèles.
 
 Ces analyses permettent de tester l'importance des différentes variables dans les prédictions et d'optimiser les modèles.
@@ -44,17 +47,12 @@ Ces analyses permettent de tester l'importance des différentes variables dans l
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/manonlcvp/Prediction-of-Lidar-features-for-black-carbon.git
-   cd Prediction-of-Lidar-features-for-black-carbon
    ```
 
-2. Installez les dépendances :
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Explorez les notebooks :
-   - Commencez par [X_Y.ipynb](Notebooks-ML/X_Y.ipynb), [X_L.ipynb](Notebooks-ML/X_L.ipynb), ou [L_X.ipynb](Notebooks-ML/L_X.ipynb) pour comprendre les prédictions spécifiques.
+2. Explorez les notebooks :
+   - Commencez par [X_Y.ipynb](Notebooks-ML/X_Y.ipynb), [X_L.ipynb](Notebooks-ML/X_L.ipynb), [L_X.ipynb](Notebooks-ML/L_X.ipynb) ou [L_X_1_2_var.ipynb](Notebooks-ML/L_X_1_2_var.ipynb) pour comprendre les prédictions spécifiques.
    - Consultez [resultats.ipynb](Notebooks-ML/resultats.ipynb) pour visualiser et analyser les résultats.
+   - Testez des prédictions avec [Fonction_prédiction.ipynb](Notebooks-ML/Fonction_prédiction.ipynb).
 
 ---
 
