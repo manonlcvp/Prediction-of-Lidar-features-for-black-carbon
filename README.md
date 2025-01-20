@@ -10,8 +10,8 @@ Le projet comprend plusieurs notebooks dédiés à des tâches spécifiques :
 - [X_Y.ipynb](Notebooks-ML/X_Y.ipynb) : Prédiction des paramètres optiques à partir des paramètres physiques.
 - [X_L.ipynb](Notebooks-ML/X_L.ipynb) : Prédiction des paramètres lidar à partir des paramètres physiques.
 - [L_X.ipynb](Notebooks-ML/L_X.ipynb) : Prédiction des paramètres physiques à partir des paramètres lidar.
-- [L_X_1_2_var.ipynb](Notebooks-ML/L_X_1_2_var.ipynb) : Prédiction des paramètres physiques en utilisant une ou deux variables lidar, pour déterminer les variables les plus influentes.
-- [resultats.ipynb](Notebooks-ML/resultats.ipynb) : Visualisation des résultats avec des graphes.
+- [L_X_1_2_var.ipynb](Notebooks-ML/L_X _1_2_var.ipynb) : Prédiction des paramètres physiques en utilisant une ou deux variables lidar, pour déterminer les variables les plus influentes.
+- [Resultats.ipynb](Notebooks-ML/Resultats.ipynb) : Visualisation des résultats avec des graphes.
 - [Fonction_prédiction.ipynb](Notebooks-ML/Fonction_prédiction.ipynb) : Fonction qui prédit les paramètres physiques en prenant en entrée les paramètres Lidar et deux paramètres physiques (fraction of coating et fractal dimension).
 
 ### Préparation des données
@@ -50,7 +50,7 @@ Ces analyses permettent de tester l'importance des différentes variables dans l
    ```
 
 2. Explorez les notebooks :
-   - Commencez par [X_Y.ipynb](Notebooks-ML/X_Y.ipynb), [X_L.ipynb](Notebooks-ML/X_L.ipynb), [L_X.ipynb](Notebooks-ML/L_X.ipynb) ou [L_X_1_2_var.ipynb](Notebooks-ML/L_X_1_2_var.ipynb) pour comprendre les prédictions spécifiques.
+   - Commencez par [X_Y.ipynb](Notebooks-ML/X_Y.ipynb), [X_L.ipynb](Notebooks-ML/X_L.ipynb), [L_X.ipynb](Notebooks-ML/L_X.ipynb) ou [L_X_1_2_var.ipynb](Notebooks-ML/L_X _1_2_var.ipynb) pour comprendre les prédictions spécifiques.
    - Consultez [resultats.ipynb](Notebooks-ML/resultats.ipynb) pour visualiser et analyser les résultats.
    - Testez des prédictions avec [Fonction_prédiction.ipynb](Notebooks-ML/Fonction_prédiction.ipynb).
 
