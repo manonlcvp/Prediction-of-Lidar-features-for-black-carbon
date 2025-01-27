@@ -15,8 +15,9 @@ Le projet comprend plusieurs notebooks dédiés à des tâches spécifiques :
 - [Fonction_prédiction.ipynb](Notebooks-ML/Fonction_prédiction.ipynb) : Fonction qui prédit les paramètres physiques en prenant en entrée les paramètres Lidar et deux paramètres physiques (fraction of coating et fractal dimension).
 
 ### Préparation des données
-Les données ont été nettoyées et analysées pour assurer leur qualité et leur exploitabilité avant d'être utilisées dans les modèles. Ce nettoyage a été réalisé dans [création_database.ipynb](data/création_database.ipynb)
-Il permet de créer le tableau df_cleaned qui devra être téléchargé pour l'analyse des résultats. 
+
+Les données ont été nettoyées et analysées pour assurer leur qualité et leur exploitabilité avant d'être utilisées dans les modèles. Ce nettoyage a été réalisé dans [création_database.ipynb](data/création_database.ipynb). Il permet de créer le tableau df_cleaned qui devra être téléchargé pour l'analyse des résultats. 
+
 ---
 
 ## Méthodes de Machine Learning
