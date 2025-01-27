@@ -16,7 +16,7 @@ Le projet comprend plusieurs notebooks dédiés à des tâches spécifiques :
 
 ### Préparation des données
 Les données ont été nettoyées et analysées pour assurer leur qualité et leur exploitabilité avant d'être utilisées dans les modèles. Ce nettoyage a été réalisé dans [création_database.ipynb](data/création_database.ipynb)
-
+Il permet de créer le tableau df_cleaned qui devra être téléchargé pour l'analyse des résultats. 
 ---
 
 ## Méthodes de Machine Learning
@@ -50,9 +50,10 @@ Ces analyses permettent de tester l'importance des différentes variables dans l
    ```
 
 2. Explorez les notebooks :
-   - Commencez par [X_Y.ipynb](Notebooks-ML/X_Y.ipynb), [X_L.ipynb](Notebooks-ML/X_L.ipynb), [L_X.ipynb](Notebooks-ML/L_X.ipynb) ou [L_X_1_2_var.ipynb](Notebooks-ML/L_X_1_2_var.ipynb) pour comprendre les prédictions spécifiques.
-   - Consultez [Resultats.ipynb](Notebooks-ML/Resultats.ipynb) pour visualiser et analyser les résultats.
-   - Testez des prédictions avec [Fonction_prédiction.ipynb](Notebooks-ML/Fonction_prédiction.ipynb).
+   -  Tout d'abord, il vous faut télécharger les libraries nécéssaires à l'éxccution des codes ainsi que le jeu de données données df_cleaned. 
+   - Commencez ensuite par [X_Y.ipynb](Notebooks-ML/X_Y.ipynb), [X_L.ipynb](Notebooks-ML/X_L.ipynb), [L_X.ipynb](Notebooks-ML/L_X.ipynb) ou [L_X_1_2_var.ipynb](Notebooks-ML/L_X_1_2_var.ipynb) pour comprendre les prédictions spécifiques. Ces codes permettent d'obtenir les poids des modèles. Il n'est pas nécessaire de faire tourner ces codes, les poids sont enregistré dans le dossier 'poids'. 
+   - Consultez [Resultats.ipynb](Notebooks-ML/Resultats.ipynb) pour visualiser et analyser les résultats. Il vous faut télécharger les poids des modèles. 
+   - Testez des prédictions avec [Fonction_prédiction.ipynb](Notebooks-ML/Fonction_prédiction.ipynb).  Il vous faut télécharger les poids des meilleurs modèles. 
 
 ---
 
